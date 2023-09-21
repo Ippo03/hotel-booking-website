@@ -1,0 +1,166 @@
+/* 
+    CSS file for account registration and sign in styling
+*/
+
+/* COMMON DEFAULT AND BACKGROUND STYLES */
+html,
+body,
+footer {
+    background: url("../assets/images/registration-background.jpg") no-repeat center;
+}
+
+/* COMMON CONTAINER STYLES */
+/* Styles for registration, login, and create account containers */
+.signup-container,
+.login-container,
+.create-acc-container {
+    margin: 100px auto;
+    border-radius: 12px;
+}
+
+/* Styles for user information within signup and login containers */
+.signup-user-info,
+.login-user-info {
+    margin: 0 auto;
+}
+
+/* Styles for input containers, checkbox containers, and create account links */
+.signup-input-container,
+.signup-checkbox-container,
+.login-input-container,
+.create-acc-container a {
+    margin: 15px auto;
+    width: 65%;
+    transition: margin-left 0.3s ease;
+}
+
+/* Input and select styles */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    border-top: #fff;
+    border-right: #fff;
+    border-left: #fff;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover,
+select:hover {
+    outline: none;
+    background: lightgray;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus {
+    outline: none;
+    background: lightgray;
+    border-color: green;
+}
+
+/* COMMON TITLE STYLES */
+/* Styles for titles within signup, login, and create account sections */
+.signup-title,
+.login-title,
+.create-acc-title {
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+/* Font size for h1 and h2 */
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+/* Styles for h2 links */
+h2 > a {
+    display: inline;
+}
+
+/* COMMON BUTTON STYLES */
+/* Styles for buttons within signup, login, and create account sections */
+.signup-button,
+.create-acc-button,
+.login-button {
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* COMMON ICON STYLES */
+/* Styles for icons, specifically the warning icon */
+.warning-icon {
+    width: 20px;
+    height: auto;
+}
+
+/* REGISTER.HTML UNIQUE STYLES */
+.signup-container {
+    width: 60%;
+}
+
+.signup-input-container,
+.signup-checkbox-container {
+    margin-left: 30%;
+}
+
+/* Adjust input and select width within signup input container */
+.signup-input-container input[type="text"],
+.signup-input-container input[type="email"],
+.signup-input-container input[type="password"],
+.signup-input-container select {
+    width: 40%;
+}
+
+/* Customize the signup button */
+.signup-button {
+    background: #000000cf;
+}
+
+/* LOGIN.HTML UNIQUE STYLES */
+/* Unique styles for the login.html page */
+.login-container,
+.create-acc-container {
+    width: 35%;
+}
+
+/* Adjust input width within login input container */
+.login-input-container input[type="email"],
+.login-input-container input[type="password"] {
+    width: 70%;
+}
+
+/* Customize the login and create account buttons */
+.login-button {
+    width: 50%;
+}
+
+.create-acc-button {
+    width: 70%;
+    margin: 10px auto;
+    background: #000000cf;
+}
+
+/* Style for create account button on hover */
+.create-acc-button:hover {
+    color: #fff;
+    background: #000;
+}
+
+/* Style for login button on hover */
+.login-button:hover {
+    background: darkgreen;
+}
+
+/* Paragraph styles */
+p {
+    padding-bottom: 10px;
+}

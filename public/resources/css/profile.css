@@ -1,0 +1,320 @@
+/* 
+    CSS file for profile page styling
+*/
+
+/* Global container styles */
+.container {
+    margin-top: 100px;
+}
+
+/* Global font styles */
+h2 {
+    font-size: 10px;
+}
+
+h3,
+h4 {
+    margin: 5px;
+}
+
+h4 {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+/* Container styles for bookings and reviews sections */
+.bookings-container,
+.favorites-container,
+.reviews-container {
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+/* Styles for booking and review rooms */
+.booking-room,
+.review-room {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Styles for booking and review room containers */
+.booking-room-container,
+.review-room-container {
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.125);
+}
+
+/* Hover styles for room containers */
+.booking-room-container:hover,
+.review-room-container:hover {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 1);
+}
+
+/* Styles for room images within containers */
+.booking-room-container img,
+.review-room-container img {
+    width: 20%;
+    padding: 15px;
+}
+
+/* List item styles */
+ol li {
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+
+/* Booking state styles */
+.booking-state {
+    border-radius: 10px;
+    width: 35%;
+    padding: 5px;
+}
+
+/* Active state style */
+.active {
+    background: darkgreen;
+}
+
+/* Right side alignment */
+.right-side {
+    margin-left: auto;
+    margin-right: 10px;
+    width: 25%;
+}
+
+/* Price styles */
+.price {
+    margin-left: auto;
+    position: relative;
+}
+
+/* Price icon styles */
+.price img {
+    width: 6%;
+    padding: 0px;
+}
+
+/* View room button styles */
+.view-room-btn {
+    border-radius: 6px;
+    border-width: 1px;
+    margin-left: auto;
+}
+
+/* View room button link styles */
+.view-room-btn a {
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover styles for view room button */
+.view-room-btn:hover {
+    background-color: darkorange;
+}
+
+/* Container styles for favorites sections */
+/* Favorites section header styles */
+.favorites-header {
+    margin: 20px 40px;
+}
+
+/* Favorites section header text styles */
+.favorites-header h1 {
+    margin: 0;
+}
+
+/* Favorites container overflow styles */
+.favorites-container {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+/* Styles for favorite rooms */
+.favorite-room {
+    flex: 0 0 300px;
+    margin: 5px;
+    width: 250px;
+    transition: flex 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+/* Styles for favorite room elements */
+.favorite-room > * {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    width: 100%;
+    padding: 10px 0;
+}
+
+/* Remove border-bottom from first child */
+.favorite-room > *:first-child {
+    padding: 0;
+    border-bottom: none;
+}
+
+/* Adjust padding and margin for last child */
+.favorite-room > *:last-child {
+    padding: 5px 0;
+    margin: 10px 0;
+}
+
+/* Favorite room image container styles */
+.fav-image-container {
+    position: relative;
+    border-bottom: none;
+    width: 100%;
+}
+
+/* Favorite room image styles */
+.fav-image-container img {
+    width: 100%;
+    height: 165px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Close icon styles */
+.fav-image-container .close-icon {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50%;
+    width: 15px;
+    height: auto;
+}
+
+/* Favorite room title styles */
+.fav-title {
+    padding: 10px 0;
+    font-size: 20px;
+    border-radius: 0;
+}
+
+/* Hover styles for favorite room title */
+.fav-title:hover {
+    color: orange;
+}
+
+/* Favorite room location styles */
+.fav-loc {
+    font-size: 12px;
+}
+
+/* Hotel rating label styles */
+.hotel-rating-label span {
+    font-size: 10px;
+}
+
+/* Rating value styles */
+.rating-value {
+    border-radius: 6px;
+    padding: 7px;
+    margin: 5px;
+}
+
+/* Favorite room button styles */
+.favorite-room button {
+    width: 45%;
+    margin: 0 auto;
+}
+
+/* Favorite room title styles */
+.favorite-room h2 {
+    margin: 10px 0;
+}
+
+/* Icon styles */
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+/* Review rating styles */
+.review-rating p {
+    margin-right: 5px;
+}
+
+/* Star icon styles */
+.fa-star {
+    font-size: 20px;
+}
+
+/* MEDIA QUERIES */
+/* For screens up to 820px wide */
+@media (max-width: 820px) {
+    /* Adjust width for bookings and reviews containers */
+    .bookings-container,
+    .reviews-container {
+        width: 90%;
+        transition: width 0.3s ease; 
+    }
+
+    /* Adjust width for extra options image */
+    .extra-options-image {
+        width: 30%;
+        transition: width 0.3s ease; 
+    }
+
+    /* Adjust width for booking and review room containers */
+    .booking-room-container,
+    .review-room-container {
+        width: 100%;
+        transition: width 0.3s ease; 
+    }
+}
+
+/* For screens up to 600px wide */
+@media (max-width: 600px) {
+    /* Adjust width for room images in booking and review rooms */
+    .booking-room-container > img, 
+    .review-room-container > img {
+        width: 25%;
+        padding: 18px 7px;
+        transition: width 0.3s ease; 
+    }
+
+    /* Adjust font size for headings and titles */
+    .booking-room > h2, h3, h4,
+    .review-room > h2, h3, h4 {
+        font-size: 12px;
+        transition: width 0.3s ease; 
+    }
+
+    /* Adjust font size and width for booking state */
+    .booking-state {
+        font-size: 10px;
+        padding: 2px;
+        width: 45%;
+        transition: width 0.3s ease; 
+    }
+
+    /* Adjust font size and padding for button links in right side */
+    .right-side > button > a{
+        font-size: 10px;
+        padding: 3px 5px;
+        transition: width 0.3s ease; 
+    }
+
+    /* Adjust font size for review ratings and star icons */
+    .review-rating p {
+        font-size: 10px;
+        transition: width 0.3s ease; 
+    }
+
+    /* Adjust width for extra options image */
+    .extra-options-image {
+        width: 50%;
+        transition: width 0.3s ease; 
+    }
+
+    .fa-star {
+        font-size: 15px;
+        transition: width 0.3s ease; 
+    }
+}
+

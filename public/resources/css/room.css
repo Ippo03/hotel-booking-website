@@ -1,0 +1,135 @@
+/*
+    CSS file for room page styling 
+*/
+
+/* Set the container width and center it */
+.container {
+    width: 75%;
+    margin: 100px auto;
+}
+
+/* Add spacing between direct children of the container */
+.container > * {
+    margin-bottom: 20px;
+}
+
+/* Styling for the title bar and room amenities section */
+.title-bar,
+.room-amenities {
+    width: 100%;
+}
+
+/* Adjust margin for room info and form elements */
+.room-info > div, form {
+    margin: 0 10px;
+}
+
+/* Add transition effect to heart icon */
+.fa-heart {
+    transition: transform 0.2s;
+}
+
+/* Styling for heart icon size */
+.heart-icon {
+    font-size: 20px;
+}
+
+/* Create vertical wall separator */
+.wall {
+    width: 2px;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    margin: 0 5px; 
+}
+
+/* Styling for room images */
+.room-image {
+    width: 60%;
+}
+
+/* Common styles for various elements */
+.book-now, .mine, .other, .book-btn {
+    border-radius: 4px;
+    padding: 5px;
+}
+
+/* Position book-now element to the right */
+.book-now {
+    margin-left: auto;
+}
+
+/* Styling for room reviews and add review containers */
+.room-reviews-container,
+.add-review-container {
+    border-left: 5px solid orange;
+    border-width: 3px;
+    margin-left: 20px;
+}
+
+/* Adjust margin for elements within review containers */
+.room-reviews-container > *,
+.add-review-container > * {
+    margin: 0 10px 0 15px;
+}
+
+/* Styling for room reviews and descriptions */
+.room-reviews {
+    margin-top: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5)
+}
+
+span.text {
+    margin-right: 10px;
+}
+
+span.desc {
+    margin: 15px 0;
+}
+
+span.when {
+    font-size: 12px;
+}
+
+/* Styling for star rating */
+.rate {
+    margin-bottom: 10px;
+}
+
+.rate label {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.rate label:before {
+    content: '\2605'; 
+    font-size: 1.5rem;
+}
+
+/* Styling for checked star ratings */
+.rate input[type="radio"]:checked + label {
+    color: #ffac33; 
+}
+
+/* Styling for text area in the add review form */
+.addReviewForm textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+/* Styling for the submit button */
+.submit-btn {
+    margin: 10px 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Highlight the submit button on hover */
+.submit-btn:hover {
+    background-color: darkorange; 
+}
+
+
+

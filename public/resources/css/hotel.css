@@ -1,0 +1,502 @@
+/* 
+    CSS file for main (index.php) and list (list.php) page styling
+*/
+
+/* COMMON GENERAL STYLES */
+/* Adjust image size */
+body > main img {
+    width: 15px;
+    height: auto;
+}
+
+/* Styles for the search container */
+.search-container {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    height: 25px;
+}
+
+/* Styles for arrow elements */
+.arrows {
+    margin-left: 10px;
+}
+
+/* Styles for check-in and check-out arrows */
+.arrows.check-in,
+.arrows.check-out {
+    margin-right: -10px;
+}
+
+/* COMMON MEDIA STYLES */
+/* Media container for hotel image container */
+.media {
+    flex-shrink: 0; 
+    width: 300px; 
+    height: 204px; 
+    margin-right: 10px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    overflow: hidden; 
+}
+
+/* Style for hotel images inside media container */
+.media img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+/* COMMON HOTEL STYLES */
+/* Container for hotel content */
+.hotel-content {
+    flex: 1;
+    margin: 10px auto;
+    border-radius: 12px;
+}
+
+/* Hotel title */
+.hotel-info h1 {
+    font-size: 30px;
+    margin-top: auto;
+}
+
+/* Hotel location */
+.hotel-info h2 {
+    font-size: 15px;
+    margin: 0;
+}
+
+/* Hotel description */
+.hotel-info p {
+    margin-bottom: auto;
+}
+
+.hotel-info {
+    flex: 1; 
+}
+
+/* Right side of the hotel entry */
+.right-side {
+    margin-right: 10px;
+}
+
+/* Rating label for the hotel */
+.hotel-rating-label span {
+    font-size: 10px;
+}
+
+/* Rating value for the hotel */
+.rating-value {
+    border-radius: 6px;
+    padding: 7px;
+    margin: 5px;
+}
+
+/* COMMON BUTTON STYLES*/
+button {
+    border-radius: 6px;
+    border-width: 1px;
+}
+
+/* Style for search button */
+.search-btn button {
+    height: 35px;
+    width: 70px;
+}  
+
+/* Remove outline on select focus */
+select:focus {
+    outline: none;
+}
+
+/* INDEX.CSS UNIQUE STYLES */
+/* Margin for the search bar on the index page */
+.search-bar-margin-index {
+    margin: 80px 0 10px 0;
+} 
+
+/* Margin for child elements of the search bar on the index page */
+.search-bar-margin-index > div {
+    margin: 0 5px;
+}
+
+/* Margin for the sorting bar on the index page */
+.sorting-bar-margin-index {
+    margin: 20px 0;
+}
+
+/* Maximum width for the search container on the index page */
+.search-container-width-index {
+    max-width: 200px;
+}
+
+/* Margin for the search container on the index page */
+.search-container-margin-index {
+    margin: 0 5px;
+}
+
+/* Margin for 'from' and 'to' search elements on the index page */
+.from-search-margin-index,
+.to-search-margin-index {
+    margin: 0 5px;
+}
+
+/* Margin for the 'from' search element's image on the index page */
+.from-search > img {
+    margin-right: 5px;
+}
+
+/* Styles for sorting, map, and stays found elements */
+.sort-by,
+.map,
+.stays-found {
+    padding: 0 25px;
+}
+
+/* Styles for the wall separator */
+.wall {
+    width: 2px;
+    height: 25px; 
+    background-color: rgba(0, 0, 0, 0.75); 
+    margin: 0 5px; 
+}
+
+/* Width for hotel content on the index page */
+.hotel-content-width-index {
+    width: 60%;
+}
+
+/* Margin for the hotel articles on the index page */
+.article-margin-index {
+    margin: 20px 0;
+}
+
+/* Form width for hotel articles on the index page */
+article > form {
+    width: 100%;
+}
+
+/* LIST.CSS UNIQUE STYLES */
+/* Margin for the search bar on the list page */
+.search-bar-margin-list {
+    margin: 20px;
+    border-radius: 8px;
+}
+
+/* Margin for child elements of the search bar on the list page */
+.search-bar-margin-list > div {
+    margin: 10px 5px;
+}
+
+/* Margin for the sorting bar on the list page */
+.sorting-bar-margin-list {
+    margin-top: 75px;
+}
+
+/* Styles for asides container */
+.asides {
+    width: 40%;
+    margin-bottom: auto;
+}
+
+/* Styles for list search bar and filters */
+.list-search-bar,
+.list-filters {
+    width: 100%;
+}
+
+/* Width for the search container on the list page */
+.search-container-width-list {
+    width: 220px;
+    max-width: 220px;
+}
+
+/* Margin for the 'from' search element on the list page */
+.from-search-margin-list {
+    margin-bottom: 10px;
+}
+
+/* Margin for the 'to' search element on the list page */
+.to-search-margin-list {
+    margin-top: 10px;
+}
+
+/* Margin for hotel articles on the list page */
+.article-margin-list {
+    margin-bottom: 20px;
+}
+
+/* Width for hotel content on the list page */
+.hotel-content-width-list {
+    width: 75%;
+}
+
+/* Margin for the search results container on the list page */
+.search-results-container {
+    margin-bottom: auto;
+}
+
+/* Styles for the price slider container */
+#price-slider-container {
+    width: 80%;
+}
+
+/* Styles for the price slider */
+#price-slider {
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+}
+
+/* Styles for price labels on the price slider */
+#price-slider:before,
+#price-slider:after {
+    content: attr(data-label);
+    position: absolute;
+    font-weight: bold;
+    width: 20px;
+    text-align: center;
+    margin-top: -20px;
+    color: #333;
+}
+
+#price-slider:before {
+    content: "0";
+    left: 0;
+}
+
+#price-slider:after {
+    content: "500";
+    right: 0;
+}
+
+/* Styles for amenities container */
+.amenities {
+    margin: 20px;
+    border-radius: 8px;
+}
+
+/* Styles for the checkbox grid */
+.checkbox-grid {
+    flex-wrap: wrap;
+    max-width: 300px; 
+}
+
+/* Styles for a row of checkboxes */
+.checkbox-row {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Styles for individual checkbox containers */
+.checkbox-container {
+    flex: 1;
+    margin: 5px; 
+}
+
+/* Styles for clear filters button */
+.clear-filters {
+    height: 35px;
+    width: 90px;
+}
+
+
+/* MEDIA QUERIES FOR INDEX.CSS */
+/* For screens up to 1296px wide */
+@media (max-width: 1296px) {
+    /* Adjust hotel content width */
+    .hotel-content-width-index {
+        width: 70%; 
+        transition: width 0.3s ease; 
+    }
+    
+    /* Adjust media container styles */
+    .media {
+        margin-right: 0; 
+        border-top-left-radius: 12px; 
+        border-bottom-left-radius: 12px;
+    }
+    
+    /* Adjust font sizes for hotel info */
+    .hotel-info h1 {
+        font-size: 24px;
+        transition: font-size 0.3s ease; 
+    }
+    
+    .hotel-info h2 {
+        font-size: 16px; 
+        transition: font-size 0.3s ease;
+    }
+
+    .hotel-info p {
+        font-size: 16px;
+        transition: font-size 0.3s ease;
+    }
+}
+
+/* For screens up to 975px wide */
+@media (max-width: 975px) {
+    /* Adjust hotel content width */
+    .hotel-content-width-index {
+        width: 85%; 
+        transition: width 0.3s ease;
+    }
+
+    /* Adjust media container styles */
+    .media {
+        margin-right: 0; 
+        border-top-left-radius: 12px; 
+        border-bottom-left-radius: 12px;
+    }
+
+    /* Adjust width of the right-side element */
+    .right-side {
+        width: 10%; 
+        transition: width 0.3s ease;
+    }
+
+    .right-side > label {
+        font-weight: bold; 
+        font-size: 14px;
+    }
+
+    .rating-value {
+        font-size: 12px;
+    }
+
+    /* Adjust font sizes for hotel info */
+    .hotel-info h1 {
+        font-size: 20px;
+        transition: font-size 0.3s ease;
+    }
+
+    .hotel-info h2 {
+        font-size: 13px; 
+        transition: font-size 0.3s ease;
+    }
+
+    .hotel-info p {
+        font-size: 13px; 
+        transition: font-size 0.3s ease;
+    }
+}
+
+/* For screens up to 700px wide */
+@media (max-width: 700px) {
+    /* Adjust width for hotel content */
+    .hotel-content-width-index {
+        width: 100%; 
+        transition: width 0.3s ease;
+    }
+
+    /* Adjust media container styles */
+    .media {
+        width: 40%; 
+        margin-right: 0; 
+        border-top-left-radius: 12px; 
+        border-bottom-left-radius: 12px;
+    }
+
+    /* Adjust width for the right-side element */
+    .right-side {
+        width: 15%; 
+        transition: width 0.3s ease;
+    }
+
+    /* Adjust font sizes and styles for various elements */
+    .right-side > span, p {
+        font-size: 10px; 
+        transition: font-size 0.3s ease;
+    }
+
+    .right-side > label {
+        font-weight: bold; 
+        font-size: 12px;
+    }
+
+    .rating-value {
+        font-size: 10px;
+    }
+
+    .label {
+        font-size: 10px; 
+        transition: font-size 0.3s ease;
+    }
+
+    /* Adjust button width and font size */
+    .right-side > button {
+        width: 80%; 
+        transition: width 0.3s ease;
+    }
+
+    .right-side > button > a {
+        font-size: 8px; 
+        transition: font-size 0.3s ease;
+    }
+
+    /* Adjust font sizes for hotel info */
+    .hotel-info h1 {
+        font-size: 15px;
+        transition: font-size 0.3s ease;
+    }
+
+    .hotel-info h2 {
+        font-size: 10px; 
+        transition: font-size 0.3s ease;
+    }
+
+    .hotel-info p {
+        font-size: 10px;
+    }
+}
+
+/* MEDIA QUERIES FOR LIST.CSS */
+/* For screens up to 1250px wide */
+@media (max-width: 1250px) {
+    /* Adjust styles for asides container */
+    .asides {
+        width: 25%;
+    }
+
+    /* Adjust styles for hotel content width */
+    .hotel-content-width-list {
+        width: 90%;
+    }
+
+    /* Adjust styles for search bar container width */
+    .search-bar > div {
+        width: 90%;
+    }
+
+    /* Adjust styles for nested div width */
+    .search-bar > div > div {
+        width: 100%;
+    }
+}
+
+/* For screens up to 1000px wide */
+@media (max-width: 1000px) {
+    /* Adjust styles for asides container */
+    .asides {
+        width: 35%;
+    }
+
+    /* Adjust styles for hotel content width */
+    .hotel-content-width-list {
+        width: 95%;
+    }
+
+    /* Adjust styles for search bar container and select width */
+    .search-bar > div,
+    .search-bar > div > select {
+        width: 80%;
+    }
+
+    /* Adjust styles for nested div and input width */
+    .search-bar > div > div,
+    .search-bar > div > div > input {
+        width: 90%;
+    }
+}
+
