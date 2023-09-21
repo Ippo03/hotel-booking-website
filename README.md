@@ -1,61 +1,88 @@
-# Hotel Booking Website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
 
-![Website Screenshot](/images/screenshot.png)
+<!-- Header Section -->
+<header>
+    <h1>Hotel Booking Website</h1>
+    <p>The Hotel Booking Website is a fully functional web application that allows users to search, book, review, and save their favorite hotels. It's built using HTML, CSS, JavaScript for the frontend, and PHP for the backend, with a SQL database for data storage.</p>
+</header>
 
-The Hotel Booking Website is a fully functional web application that allows users to search, book, review, and save their favorite hotels. It's built using HTML, CSS, JavaScript for the frontend, and PHP for the backend, with a SQL database for data storage.
+<!-- Table of Contents Section -->
+<section>
+    <h2>Table of Contents</h2>
+    <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#screenshots">Screenshots</a></li>
+        <li><a href="#getting-started">Getting Started</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#usage">Usage</a></li>
+        <li><a href="#database">Database</a></li>
+        <li><a href="#contributing">Contributing</a></li>
+        <li><a href="#license">License</a></li>
+    </ul>
+</section>
 
-## Table of Contents
+<!-- Features Section -->
+<section>
+    <h2>Features</h2>
+    <ul>
+        <li>User Registration: Users can create accounts with a username, email, and password.</li>
+        <li>Hotel Search: Search for hotels based on location, check-in/out dates, and other preferences.</li>
+        <li>Booking: Users can book hotels, specifying their check-in and check-out dates.</li>
+        <li>Reviews: Users can leave reviews and ratings for hotels they've booked.</li>
+        <li>Favorites: Users can mark hotels as favorites to easily access them later.</li>
+    </ul>
+</section>
 
-- [Features](#features)
-- [Screenshots](#screenshots)
-- [Getting Started](#getting-started)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Database](#database)
-- [Contributing](#contributing)
-- [License](#license)
+<!-- Screenshots Section -->
+<section>
+    <h2>Screenshots</h2>
+    <h3>Home Page</h3>
+    <img src="https://drive.google.com/file/d/1z1CSa36rzVytNycak5SyPAJNdhYiT-nO/view" alt="Home Page">
+    <h3>Registration Page</h3>
+    <img src="/images/register.png" alt="Registration Page">
+    <!-- Include other screenshots here -->
+</section>
 
-## Features
+<!-- Getting Started Section -->
+<section>
+    <h2>Getting Started</h2>
+    <h3>Installation</h3>
+    <ol>
+        <li>Clone the repository:</li>
+    </ol>
+    <pre><code>git clone https://github.com/yourusername/hotel-booking-website.git</code></pre>
+    <!-- Include other getting started instructions here -->
+</section>
 
-- **User Registration**: Users can create accounts with a username, email, and password.
+<!-- Usage Section -->
+<section>
+    <h2>Usage</h2>
+    <!-- Include usage instructions here -->
+</section>
 
-- **Hotel Search**: Search for hotels based on location, check-in/out dates, and other preferences.
+<!-- Database Section -->
+<section>
+    <h2>Database</h2>
+    <!-- Include database-related information here -->
+</section>
 
-- **Booking**: Users can book hotels, specifying their check-in and check-out dates.
+<!-- Contributing Section -->
+<section>
+    <h2>Contributing</h2>
+    <!-- Include contributing guidelines here -->
+</section>
 
-- **Reviews**: Users can leave reviews and ratings for hotels they've booked.
+<!-- License Section -->
+<section>
+    <h2>License</h2>
+    <!-- Include license information here -->
+</section>
 
-- **Favorites**: Users can mark hotels as favorites to easily access them later.
-
-## Screenshots
-
-### Home Page
-![Home Page](/images/home.png)
-
-### Registration Page
-![Registration Page](/images/register.png)
-
-### Search Results Page
-![Search Results Page](/images/search.png)
-
-### Hotel Details Page
-![Hotel Details Page](/images/hotel.png)
-
-### Booking Page
-![Booking Page](/images/booking.png)
-
-### Reviews Page
-![Reviews Page](/images/reviews.png)
-
-### Favorites Page
-![Favorites Page](/images/favorites.png)
-
-## Getting Started
-
-To get started with the Hotel Booking Website, follow these steps:
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/hotel-booking-website.git
+</body>
+</html>
