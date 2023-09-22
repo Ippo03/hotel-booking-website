@@ -1,6 +1,6 @@
 # Cozy Inn Hotel Booking Website
 
-Cozy Inn's Hotel Booking Website is a fully functional web application that allows users to search, book, review, and save their favorite hotels. It's built using HTML, CSS, JavaScript for the frontend, and PHP for the backend, with a SQL database for data storage.
+Cozy Inn's Hotel Booking Website is a comprehensive web application designed to streamline your hotel booking experience. With a user-friendly interface, you can effortlessly search for, book, review, and save your preferred hotels. Our platform, developed using HTML, CSS, JavaScript (frontend), and PHP (backend) with a robust SQL database, offers a range of features to enhance your travel planning. Explore recommended hotels, sort them by price and rating, and refine your searches with filters. Additionally, manage your bookings, leave reviews, and save your favorite rooms with ease. Sign up, sign in securely, and make the most of your stay with Cozy Inn!
 
 ## Table of Contents
 
