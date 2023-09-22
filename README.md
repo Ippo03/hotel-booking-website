@@ -89,12 +89,46 @@ The Room Page offers a comprehensive view of our exceptional accommodations. Exp
 ![Room Page 1](images/room1.png)
 ![Room Page 2](images/room2.png)
 
+### Register Page 📝
 
+Welcome to the Register Page, your gateway to creating a personalized account on our platform. Here's how you can get started:
 
+- **Mandatory Information**: To create your account, please provide the following compulsory details:
+  - First Name
+  - Last Name
+  - Username
+  - Email
+  - Password
+  - Confirmed Password
 
+- **Optional Fields**: We value your privacy and preferences. Feel free to provide additional information, such as your gender. It's entirely optional and helps us tailor your experience better.
 
+- **Terms and Conditions**: Before proceeding, please review and accept our terms and conditions. We believe in transparency and ensuring that your data is handled with care.
+
+- **Validator**: Our smart validator ensures that all mandatory fields are properly filled out before you can proceed. This helps prevent errors and ensures a smooth registration process.
+
+Once you've completed these steps, click the "Create" button to establish your account. Welcome aboard! Enjoy the benefits of being a registered member of our community.
 
 ![Registration Page](/images/register.png)
+
+### Sign-In Page
+
+### Sign-In Page
+
+Welcome back! The Sign-In Page is where you can securely access your account. Here's how the process works:
+
+- **Email and Password**: To log in, simply enter your registered email and password. Your password is securely hashed in our database, ensuring the confidentiality of your data.
+
+- **Validation**: We'll validate the provided password against our database to ensure it matches your account's stored credentials.
+
+- **Successful Login**: If everything checks out, you'll be securely connected to your account. Access your bookings, reviews, and favorite rooms effortlessly.
+
+Your security is our priority. Rest assured that your login process is protected by robust encryption and authentication measures, providing a safe and convenient experience.
+
+![Sign-In Page](images/sign-in.png)
+
+
+
 
 ## Getting Started
 
