@@ -5,12 +5,11 @@ Cozy Inn's Hotel Booking Website is a comprehensive web application designed to 
 ## Table of Contents
 
 - [Features](#features)
-- [Screenshots](#screenshots)
+- [Pages](#pages)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
 - [Usage](#usage)
 - [Database](#database)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
@@ -21,7 +20,7 @@ Cozy Inn's Hotel Booking Website is a comprehensive web application designed to 
 - Reviews: Users can leave reviews and ratings for hotels they've booked.
 - Favorites: Users can mark hotels as favorites to easily access them later.
 
-## Screenshots
+## Pages
 
 ### Home Page 🏠
 
@@ -136,3 +135,23 @@ Your security is our priority. Rest assured that your login process is protected
 
    ```bash
    git clone https://github.com/yourusername/hotel-booking-website.git
+
+## Usage
+
+### Register & Sign In
+
+1. Register by filling out essential details.
+2. Sign in with your registered email and password.
+
+### Explore & Book
+
+1. Explore recommended hotels or use search to find options.
+2. Click a hotel to view details.
+3. Book by selecting dates and clicking "Book Now."
+
+Follow these steps to navigate our Hotel Booking Website with ease!
+
+
+## License
+
+
