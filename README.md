@@ -111,9 +111,7 @@ Once you've completed these steps, click the "Create" button to establish your a
 
 ![Registration Page](/images/register.png)
 
-### Sign-In Page
-
-### Sign-In Page
+### Sign-In Page 🔑
 
 Welcome back! The Sign-In Page is where you can securely access your account. Here's how the process works:
 
