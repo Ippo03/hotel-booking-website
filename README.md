@@ -151,6 +151,9 @@ Your security is our priority. Rest assured that your login process is protected
 
 Follow these steps to navigate our Hotel Booking Website with ease!
 
+## Database
+![Database](images/db.png)
+
 
 ## License
 
