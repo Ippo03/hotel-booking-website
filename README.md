@@ -156,5 +156,5 @@ Follow these steps to navigate our Hotel Booking Website with ease!
 
 
 ## License
-
+This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License.
 
